@@ -59,3 +59,9 @@ function sub(){
 
     reset_after_event("sub");
 }
+function times(){
+    if (last_event == "") equation = parseFloat(number);
+    else equation *= parseFloat(number);
+
+    reset_after_event("times");
+}
