@@ -27,3 +27,9 @@ function remove_digit(){
 
     update_show(number);
 }
+function decimal(){
+    if (is_decimal == false){
+        add_digit(".");
+        is_decimal = true;
+    }
+}
