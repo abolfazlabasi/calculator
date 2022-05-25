@@ -76,3 +76,19 @@ function divide(){
             update_show(equation);
         }
     }
+    reset_after_event("divide");
+}
+
+function equation_answer(){
+    if (last_event == "sum") sum();
+    if (last_event == "sub") sub();
+    if (last_event == "times") times();
+    if (last_event == "divide") divide();
+
+    number = equation.toString();
+    equation = 0;
+    is_decimal = false;
+    last_event = "";
+
+    update_show(number);
+}
