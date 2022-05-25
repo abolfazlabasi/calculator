@@ -47,3 +47,15 @@ function reset_after_event(event){
 
     update_show(number);
 }
+function sum(){
+    equation += parseFloat(number);
+
+    reset_after_event("sum");
+}
+
+function sub(){
+    if (last_event == "") equation = parseFloat(number);
+    else equation -= parseFloat(number);
+
+    reset_after_event("sub");
+}
