@@ -13,4 +13,6 @@ function add_digit(digit){
             number = digit;
         else
             number = "0.";
-    }
+    } 
+    update_show(number);
+}
