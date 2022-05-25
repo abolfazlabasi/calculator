@@ -16,3 +16,8 @@ function add_digit(digit){
     } 
     update_show(number);
 }
+function remove_digit(){
+    last_letter = number[number.length - 1];
+    
+    if (number.length > 0){
+        number = number.substring(0, number.length - 1);
