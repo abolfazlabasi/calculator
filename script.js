@@ -92,3 +92,11 @@ function equation_answer(){
 
     update_show(number);
 }
+function clear_all(){
+    number = 0;
+    equation = 0;
+    is_decimal = false;
+    last_event = "";
+
+    update_show(number);
+}
