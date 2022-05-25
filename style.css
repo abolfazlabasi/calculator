@@ -26,19 +26,6 @@ body{
     top:45px;
     right:20px;
 }
-<<<<<<< HEAD
-calculator .buttons .line .btn{
-    width:95px;
-    height:90px;
-    border:none;
-    float:left;
-    margin-right: 5px;
-    color:white;
-    background-color: #222127;
-    font-size:20px;
-    transition: 0.2s;
-}
-=======
 .calculator .buttons{
     width:100%;
     height: calc(90px * 5 + 4 * 5px);
@@ -47,7 +34,6 @@ calculator .buttons .line .btn{
 .calculator .buttons .line{
     margin-bottom: 5px;
 }
->>>>>>> 0d127e8060f70227d9dd8130e8bc7063354b0d6f
 .calculator .buttons .line .btn:hover{
     background-color: #302e36;
 }
