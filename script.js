@@ -21,3 +21,9 @@ function remove_digit(){
     
     if (number.length > 0){
         number = number.substring(0, number.length - 1);
+        if (number.length == 0) number = "0";
+        if (last_letter == ".") is_decimal = false;
+    }
+
+    update_show(number);
+}
