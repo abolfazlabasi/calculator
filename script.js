@@ -33,3 +33,17 @@ function decimal(){
         is_decimal = true;
     }
 }
+function change_sign(){
+    if (parseFloat(number) > 0) number = "-" + number;
+    else number = number.substring(1, number.length);
+
+    update_show(number);
+}
+
+function reset_after_event(event){
+    number = "0";
+    last_event = event;
+    is_decimal = false;
+
+    update_show(number);
+}
