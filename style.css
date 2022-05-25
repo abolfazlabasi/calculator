@@ -17,3 +17,12 @@ body{
     height:120px;
     position: relative;
 }
+#res-text{
+    color:white;
+    direction: ltr;
+    font-size:30px;
+    font-family: Arial;
+    position: absolute;
+    top:45px;
+    right:20px;
+}
