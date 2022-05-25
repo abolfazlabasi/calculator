@@ -26,3 +26,11 @@ body{
     top:45px;
     right:20px;
 }
+.calculator .buttons{
+    width:100%;
+    height: calc(90px * 5 + 4 * 5px);
+}
+
+.calculator .buttons .line{
+    margin-bottom: 5px;
+}
