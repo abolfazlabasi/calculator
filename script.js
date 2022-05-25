@@ -65,3 +65,14 @@ function times(){
 
     reset_after_event("times");
 }
+function divide(){
+    if (last_event == "") equation = parseFloat(number);
+    else{
+        if (parseFloat(number) != 0)
+            equation /= parseFloat(number);
+        else{
+            clear_all();
+            equation = "Cannot divide by zero";
+            update_show(equation);
+        }
+    }
