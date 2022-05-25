@@ -59,3 +59,10 @@ calculator .buttons .line .btn{
 .calculator .buttons .line .btn:nth-child(4){
     margin-right: 0px;
 }
+#clear{width:calc(95px * 2 + 5px);background-color: #df3a71;}
+#equal{background-color: #3836c2;}
+
+#clear:hover{background-color: #b92254;}
+#equal:hover{background-color: #1d1c6d;}
+© 2022 GitHub, Inc.
+Terms
